@@ -7,12 +7,13 @@
 }
 
 :root {
-  --hue: 170;
+  --hue: 209;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
   --brand-beige: hsl(39, 100%, 97%);
+  --brand-blue: hsl(212, 48%, 84%);
   --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
   --brand-light-2: hsl(calc(var(--hue) - 10), 14%, 97%);
   --brand-dark: hsl(var(--hue), 100%, 14%);
@@ -59,7 +60,7 @@ img {
 }
 
 section {
-  padding-block: 10rem;
+  padding-block: 11rem;
 }
 
 section header h4 {
@@ -131,7 +132,7 @@ section .content p {
 /* CUSTOM COLORS */
 
 #services .card circle {
-  fill: var(--brand-light);
+  fill: var(--primary-color);
 }
 
 #navigation .logo path[fill*='#00856F'],
@@ -187,6 +188,15 @@ nav .menu,
 nav .close-menu {
   position: fixed;
 }
+
+nav .logo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*=== MENU-EXPANDED =============================*/
 
 body.menu-expanded {
@@ -268,7 +278,8 @@ body.menu-expanded .menu {
 }
 
 body.menu-expanded .logo,
-body.menu-expanded button {
+body.menu-expanded button,
+.logo img {
   position: relative;
   z-index: 100;
 }
@@ -378,7 +389,7 @@ body.menu-expanded button path {
 
 #about {
   text-align: left;
-  background-color: var(--brand-beige);
+  background-color: var(--brand-blue);
 }
 
 #about header h2 {
@@ -489,7 +500,7 @@ footer .social-links {
   }
 
   section {
-    padding-block: 16rem;
+    padding-block: 14rem;
   }
 
   section header h2 {
@@ -661,7 +672,7 @@ footer .social-links {
   }
 
   #home img {
-    width: 42rem;
+    width: 100%;
   }
 
   /*=== SERVICES =============================*/
@@ -709,6 +720,10 @@ footer .social-links {
     width: 40.4rem;
   }
 
+  #contact .wrapper img {
+    height: 100%;
+  }
+
   /*=== FOOTER =============================*/
 
   footer {
@@ -726,6 +741,14 @@ footer .social-links {
   footer .col-b {
     align-self: center;
     justify-self: flex-end;
+  }
+
+  footer .logo {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   footer p {
