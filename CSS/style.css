@@ -316,12 +316,12 @@ body.menu-expanded button path {
   margin-inline: auto;
 }
 
-#home img {
+/* #home img {
   width: 26.4rem;
   display: block;
   margin-inline: auto;
   object-position: 0 2rem;
-}
+} */
 
 #home p {
   font-size: 1.8rem;
@@ -671,9 +671,9 @@ footer .social-links {
     margin: 0;
   }
 
-  #home img {
+  /* #home img {
     width: 100%;
-  }
+  } */
 
   /*=== SERVICES =============================*/
 
@@ -720,9 +720,9 @@ footer .social-links {
     width: 40.4rem;
   }
 
-  #contact .wrapper img {
+  /* #contact .wrapper img {
     height: 100%;
-  }
+  } */
 
   /*=== FOOTER =============================*/
 
