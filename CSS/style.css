@@ -175,6 +175,17 @@ nav .wrapper {
   justify-content: space-between;
 }
 
+nav .wrapper a.logo {
+  color: var(--brand-beige);
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--primary-color);
+  font-size: 4rem;
+  color: var(--brand-light);
+}
+
 nav.scroll {
   background: var(--primary-color);
 }
@@ -187,14 +198,6 @@ nav button {
 nav .menu,
 nav .close-menu {
   position: fixed;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /*=== MENU-EXPANDED =============================*/
@@ -525,6 +528,17 @@ footer .social-links {
     color: initial;
     background-color: initial;
     filter: initial;
+  }
+
+  nav#navigation .wrapper a.logo {
+    color: var(--brand-beige);
+    text-decoration: none;
+    font-weight: 500;
+    text-align: left;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--primary-color);
+    font-size: 4rem;
+    color: var(--brand-light);
   }
 
   nav#navigation .close-menu,
