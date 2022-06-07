@@ -9,4 +9,6 @@ Minha primeira landing page responsiva criada com as ferramentas de HTML, CSSe J
 
   
 ### Prévia da Landing Page:
-[![Captura de Tela 2022-05-14 às 00 34 20](https://user-images.githubusercontent.com/61170444/168409272-25d11327-3af5-4142-8e90-629c3f262d84.png)](https://caioassis-dev.github.io/LandingPage/)  
+[![Captura de Tela 2022-06-07 às 15 45 46](https://user-images.githubusercontent.com/61170444/172458986-ca41bf4d-414d-48fc-bb6c-38d6669695a4.png)](https://caioassis-dev.github.io/LandingPage/) 
+  
+ 
